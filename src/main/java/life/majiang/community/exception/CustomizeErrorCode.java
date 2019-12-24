@@ -8,6 +8,9 @@ public enum CustomizeErrorCode implements ICustomizeErrorCode {
     SYS_ERROR(2004, "未知错误,请呼叫网管"),
     TYPE_PARAM_WRONG(2005, "评论类型错误或不存在"),
     COMMENT_NOT_FOUND(2006, "回复的评论不存在"),
+    COMMENT_CONTENT_IS_EMPTY(2007, "回复的评论不能为空"),
+    READ_NOTITICATION_FAIL(2008, "非法操作,你读别人信息呢?"),
+    NOTITICATION_NOT_FOUND(2009, "消息不翼而飞了?"),
     ;
 
     private String message;

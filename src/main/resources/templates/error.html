@@ -18,5 +18,7 @@
     <p th:text="${message}">服务器炸了,有耐心的话刷新试试吧</p>
     <p><a class="btn btn-primary btn-lg" href="/" role="button">回到主页</a></p>
 </div>
+<!-- 引入公共区域:页脚 -->
+<div th:insert="~{footer::foot}"></div>
 </body>
 </html>
